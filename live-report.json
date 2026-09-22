@@ -1,0 +1,28 @@
+{
+  "mode": "live fetch",
+  "generated_at": "2026-09-22T01:21:20.234420+00:00",
+  "sources": [
+    {
+      "url": "https://api.github.com/events?per_page=100",
+      "fetched_at": "2026-09-22T01:21:20.214621+00:00"
+    }
+  ],
+  "result": {
+    "project": "LeaseQueue",
+    "source_events": 100,
+    "processed_this_run": 100,
+    "event_types": {
+      "PushEvent": 85,
+      "CreateEvent": 6,
+      "DeleteEvent": 3,
+      "MemberEvent": 1,
+      "PullRequestReviewCommentEvent": 1,
+      "PullRequestReviewEvent": 1,
+      "PullRequestEvent": 3
+    },
+    "durable_queue_states": {
+      "done": 100
+    },
+    "note": "Replays deduplicate by GitHub event ID; counts for already completed jobs are zero."
+  }
+}

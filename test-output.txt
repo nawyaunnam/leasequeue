@@ -1,0 +1,13 @@
+test_claims_are_exclusive (test_engine.QueueTests.test_claims_are_exclusive) ... ok
+test_crash_exhaustion (test_engine.QueueTests.test_crash_exhaustion) ... ok
+test_expired_worker_cannot_ack (test_engine.QueueTests.test_expired_worker_cannot_ack) ... ok
+test_idempotency_and_conflict (test_engine.QueueTests.test_idempotency_and_conflict) ... ok
+test_retry_backoff_and_dead_letter (test_engine.QueueTests.test_retry_backoff_and_dead_letter) ... ok
+test_atomic_report_roundtrip (test_feeds.FeedTests.test_atomic_report_roundtrip) ... ok
+test_network_failure_is_not_synthetic_fallback (test_feeds.FeedTests.test_network_failure_is_not_synthetic_fallback) ... ok
+test_nonfinite_output_rejected (test_feeds.FeedTests.test_nonfinite_output_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.026s
+
+OK

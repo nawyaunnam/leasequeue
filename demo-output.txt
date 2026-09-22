@@ -1,0 +1,16 @@
+{
+  "deduplicated": true,
+  "job": {
+    "id": 1,
+    "key": "invoice:42",
+    "payload": {
+      "invoice": 42
+    },
+    "state": "done",
+    "attempts": 2,
+    "available": 3.0,
+    "expires": null,
+    "token": null,
+    "error": "temporary outage"
+  }
+}
