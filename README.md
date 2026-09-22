@@ -4,6 +4,20 @@ A SQLite job queue with idempotent submission, atomic claims, expiring leases, r
 
 **Focus:** Software engineering / backend reliability · Python 3.11+ · Standard library · Offline demo
 
+## Tech stack
+
+| Layer | Technologies used |
+| --- | --- |
+| Language | Python 3.11+ |
+| Persistence | SQLite, WAL mode, atomic transactions |
+| Queue mechanics | Fenced leases, UUID tokens, retry backoff, idempotency |
+| Live source | GitHub REST public events API |
+| Dashboard | HTML5, CSS, vanilla JavaScript; Python HTTP server |
+| Data transport | urllib.request, verified TLS, JSON, ETag caching |
+| Testing and CI | unittest, GitHub Actions; Python 3.11–3.13 matrix |
+
+The implementation uses the Python standard library; no external Python packages are required.
+
 ## Run in two commands
 
 From this project directory:
@@ -35,8 +49,6 @@ Single-host SQLite, at-least-once delivery. Handlers must make side effects idem
 
 This is a portfolio implementation, not evidence of production use or business
 impact. Any reported metrics describe only the included demonstration data.
-Built with AI assistance; review, customize, and understand the implementation
-before presenting it as a personal project in an interview.
 
 ## Live public-data workflow
 
